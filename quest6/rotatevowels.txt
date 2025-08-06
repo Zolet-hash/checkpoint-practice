@@ -1,0 +1,17 @@
+$ go run . "Hello World"
+Hollo Werld
+
+$ go run . "HEllO World" "problem solved"
+Hello Werld problom sOlvEd
+
+$ go run . "str" "shh" "psst"
+str shh psst
+
+$ go run . "happy thoughts" "good luck"
+huppy thooghts guod lack
+
+$ go run . "aEi" "Ou"
+uOi Ea
+
+$ go run .
+<just prints a new line>
