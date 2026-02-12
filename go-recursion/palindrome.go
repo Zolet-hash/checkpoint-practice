@@ -12,7 +12,7 @@ func isPalindrome(s string) bool {
 		return true // base case, empty or one-letter case are palindromes
 	}
 	if s[0] != s[len(s)-1] {
-		return false //mostmatch at the ends: not a palindrome
+		return false //mistmatch at the ends: not a palindrome
 	}
 	return isPalindrome(s[1 : len(s)-1]) //recurse with inner substring
 }
