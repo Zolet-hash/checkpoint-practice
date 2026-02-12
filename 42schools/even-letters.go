@@ -19,5 +19,5 @@ func main() {
 		}
 		index++
 	}
-	fmt.Println()
+	fmt.Println() //print newline at the end
 }
