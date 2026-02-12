@@ -18,7 +18,7 @@ func main() {
 	for _, char := range input {
 		if char == 'a' {
 			fmt.Println("a")
-			return
+			return //call os.Status exit[1]
 		}
 	}
 
